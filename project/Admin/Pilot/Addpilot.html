@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Pilot</title>
+    <link rel="stylesheet" href="Addpilot.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar with logo -->
+    <nav class="navbar">
+        <a href="../homepage.php" class="logo">
+            <img src="../images/logo.png" alt="Website Logo">
+        </a>
+    </nav>
+
+    <!-- Pilot Sign Up Page Content -->
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2>Add Pilot</h2>
+            <form action="Addpilot.php" method="post">
+                <input type="text" name="pi_f_name" class="input-field" placeholder="First Name" required><br>
+                <input type="text" name="pi_m_name" class="input-field" placeholder="Middle Name" required><br>
+                <input type="text" name="pi_l_name" class="input-field" placeholder="Last Name" required><br>
+                <input type="text" name="licence_no" class="input-field" placeholder="Licence Number" required><br>
+                <input type="number" name="flight_hr" class="input-field" placeholder="Flight Hours" required><br>
+                <input type="number" name="salary" class="input-field" placeholder="Salary" required><br>
+                <input type="date" name="dob" class="input-field" placeholder="Date of Birth" required><br>
+
+                <!-- Checkbox for Captain -->
+                <div class="checkbox-container">
+                    <input type="checkbox" name="is_captain" id="is_captain" class="checkbox">
+                    <label for="is_captain">Is this pilot a Captain?</label>
+                </div>
+
+                <button type="submit" name="submit" class="signup-btn">Add Pilot</button>
+            </form>
+            <div class="login-link">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

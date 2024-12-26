@@ -1,0 +1,126 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar .logo img {
+    height: 70px;
+    cursor: pointer;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Booking Section */
+.booking-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.booking-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.booking-section form {
+    margin-top: 20px;
+}
+
+.booking-section label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Seat Checkbox Container */
+.seat-checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.seat-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.seat-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.seat-checkbox label {
+    font-size: 16px;
+}
+
+/* Button Styles */
+.book-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Button Disabled */
+.book-btn:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .booking-section {
+        padding: 15px;
+    }
+
+    .booking-section h2 {
+        font-size: 20px;
+    }
+
+    .booking-section p {
+        font-size: 14px;
+    }
+
+    .seat-checkbox-container {
+        flex-direction: column;
+    }
+
+    .book-btn {
+        font-size: 14px;
+    }
+}

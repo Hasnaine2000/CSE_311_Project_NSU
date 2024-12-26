@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <!-- Add Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar with logo as a button to index page -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Website Logo">
+        </a>
+    </nav>
+
+    <!-- Sign Up Page Content -->
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2>Sign Up</h2>
+            <form action="signup.php" method="post">
+                <input type="text" name="fn" class="input-field" placeholder="First Name" required><br>
+                <input type="text" name = "mn" class="input-field" placeholder="Middle Name" required><br>
+                <input type="text" name = "ln" class="input-field" placeholder="Last Name" required><br>
+                <input type="email" name = "email" class="input-field" placeholder="Email" required><br>
+                <input type="tel" name = "pn" class="input-field" placeholder="Phone Number" required><br>
+                <input type="date" name = "dob" class="input-field" placeholder="Date of Birth" required><br>
+                
+                <div class="password-container">
+                    <input type="password" name = "password" id="password" class="input-field" placeholder="Password" required><br>
+                    
+                    <button type="button" class="show-password" onclick="togglePassword()">
+                        <i id="eye-icon" class="fas fa-eye-slash"></i> <!-- Font Awesome closed eye icon -->
+                    </button>
+                </div>
+
+                <button type="submit" name = "submit" class="signup-btn">Sign Up</button>
+            </form>
+            <div class="login-link">
+                <p>Already have an account? <a href="login.html">Log In</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function togglePassword() {
+            var passwordField = document.getElementById("password");
+            var confirmPasswordField = document.getElementById("confirm-password");
+            var eyeIcon = document.getElementById("eye-icon");
+
+            if (passwordField.type === "password" ) {
+                passwordField.type = "text";  // Show the password
+                confirmPasswordField.type = "text";  // Show the confirm password
+                eyeIcon.classList.remove("fa-eye-slash");  // Remove the closed eye class
+                eyeIcon.classList.add("fa-eye");  // Add the open eye class
+            } else {
+                passwordField.type = "password";  // Hide the password
+                confirmPasswordField.type = "password";  // Hide the confirm password
+                eyeIcon.classList.remove("fa-eye");  // Remove the open eye class
+                eyeIcon.classList.add("fa-eye-slash");  // Add the closed eye class
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px 40px;
+}
+
+.logo img {
+    height: 70px;
+    cursor: pointer;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn {
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Edit Profile Page Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    background-color: rgba(244, 244, 244, 0.8);
+}
+
+/* Form Box */
+.profile-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-top: 30px;
+}
+
+.profile-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Fields */
+input[type="text"], input[type="date"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for a clean look */
+    margin: 8px 0; /* Spacing between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Adjust for padding */
+    font-size: 16px; /* Larger text */
+}
+
+/* Input Focus */
+input[type="text"]:focus, input[type="date"]:focus {
+    border-color: #2196F3; /* Blue border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.5); /* Subtle glow */
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Save Changes Button */
+button.edit-btn {
+    width: 100%; /* Full width */
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for a larger button */
+    margin-top: 20px; /* Space above */
+    font-size: 16px; /* Larger text */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    border: none; /* Remove border */
+}
+
+button.edit-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+button.edit-btn:active {
+    background-color: #388e3c; /* Even darker green on click */
+    transform: scale(0.98); /* Slight shrink */
+}
+
+/* Error Messages (Optional) */
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .profile-box {
+        width: 90%; /* Adjust for smaller screens */
+        padding: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}

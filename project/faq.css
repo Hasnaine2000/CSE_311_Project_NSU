@@ -1,0 +1,94 @@
+/* faq.css */
+
+/* Basic page styling for FAQ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+/* Navbar specific styling for FAQ page */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-buttons {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-buttons li {
+    margin-right: 20px;
+}
+
+.nav-buttons a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007700;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons a:hover {
+    background-color: #005500;
+}
+
+/* FAQ content container */
+.faq-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-container h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #2a9d4f;
+}
+
+/* Individual FAQ question and answer styling */
+.faq-section {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007700;
+}
+
+.faq-answer {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555555;
+}
+
+/* Link Back to Homepage */
+.back-to-home {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007700;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back-to-home:hover {
+    text-decoration: underline;
+}

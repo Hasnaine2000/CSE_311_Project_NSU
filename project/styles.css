@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Lighter background color to reduce vibrancy */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333; /* Darker navbar background */
+    padding: 20px 40px; /* Enlarged padding */
+}
+
+.logo img {
+    height: 70px; /* Adjusted size for larger navbar */
+}
+
+.nav-buttons {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-buttons li {
+    margin-right: 20px;
+}
+
+.nav-buttons a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007700; /* Subtle green buttons */
+    transition: background-color 0.3s;
+}
+
+.nav-buttons a:hover {
+    background-color: #005500; /* Darker green on hover */
+}
+
+.main-content {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/background.jpg'); /* Replace with your background image path */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* White text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.search-flight-button {
+    font-size: 24px; /* Larger font size */
+    padding: 20px 40px;
+    background-color: #009900; /* Green button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-flight-button:hover {
+    background-color: #006600; /* Darker green on hover */
+}

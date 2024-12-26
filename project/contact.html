@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
+    <!-- Add Font Awesome CDN link (Optional, if you want icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar with logo as a button to index page -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Website Logo">
+        </a>
+    </nav>
+
+    <!-- Contact Page Content -->
+    <div class="contact-container">
+        <div class="contact-box">
+            <h2>Leave us your email address we will reach back to you as soon as possible.</h2>
+            <form action="contact.php" method="post">
+                <!-- Email Input Field -->
+                <input type="email" name = "email" class="input-field" placeholder="Your Email Address" required><br>
+
+                <!-- Query Input Field -->
+                <textarea name="text" class="input-field" placeholder="Your Query" rows="5" required></textarea><br>
+
+                <!-- Submit Button -->
+                <button type="submit" name= "submit" class="submit-btn">Submit</button>
+
+            
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* Basic page styling for About page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+/* Navbar specific styling for About page */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px 40px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+/* About content container */
+.about-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #2a9d4f;
+}
+
+.about-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+/* Creators section */
+.creators-section {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.creators-section h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #2a9d4f;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.creator img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.creator-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
+}
+
+.creator-info a {
+    color: #007700;
+    text-decoration: none;
+}
+
+.creator-info a:hover {
+    text-decoration: underline;
+}

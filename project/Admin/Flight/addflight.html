@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Flight</title>
+    <link rel="stylesheet" href="addflight.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../homepage.php" class="logo">
+            <img src="../images/logo.png" alt="Website Logo">
+        </a>
+    </nav>
+
+    <div class="form-container">
+        <div class="form-box">
+            <h2>Add Flight</h2>
+            <form action="addflight.php" method="post">
+                <input type="text" name="flight_no" class="input-field" placeholder="Flight Number" required><br>
+                <input type="text" name="from_" class="input-field" placeholder="From" required><br>
+                <input type="text" name="to_" class="input-field" placeholder="To" required><br>
+                <input type="datetime-local" name="dep_time" class="input-field" placeholder="Departure Time" required><br>
+                <input type="datetime-local" name="arr_time" class="input-field" placeholder="Arrival Time" required><br>
+                <input type="text" name="plane_id" class="input-field" placeholder="Plane ID" required><br>
+                <input type="text" name="airline_id" class="input-field" placeholder="Airline ID" required><br>
+
+                <button type="submit" name="submit" class="form-btn">Add Flight</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Additional JavaScript if needed
+    </script>
+</body>
+</html>

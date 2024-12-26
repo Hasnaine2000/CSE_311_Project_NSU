@@ -19,11 +19,11 @@ if (isset($_POST["submit"])) {
         // Store user_id in session
         $_SESSION['user_id'] = $user['user_id'];
 
-        // Redirect to the profile page in the 'user' folder
+        
         header("Location: user/profile.php");
         exit();
     } else {
-        // Incorrect credentials
+        
         echo "Incorrect email or password";
     }
 }

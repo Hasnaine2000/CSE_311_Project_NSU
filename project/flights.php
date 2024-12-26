@@ -18,13 +18,8 @@ if (!empty($search)) {
               OR plane.model LIKE '%$search%' 
               OR airline.airline_name LIKE '%$search%'";
 
-              
+
 }
-
-
-
-
-
 
 
 $result = $conn->query($sql);
@@ -46,6 +41,15 @@ $result = $conn->query($sql);
             background-color: #f5f5f5;
         }
 
+        
+        .search-bar {
+            margin-left: auto;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
         .navbar {
             display: flex;
             justify-content: flex-start;
@@ -55,13 +59,6 @@ $result = $conn->query($sql);
             color: #fff;
         }
 
-        .search-bar {
-            margin-left: auto;
-            padding: 10px;
-            font-size: 14px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
 
         .table-container {
             margin: 30px auto;

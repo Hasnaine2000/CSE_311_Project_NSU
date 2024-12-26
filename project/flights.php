@@ -17,7 +17,15 @@ if (!empty($search)) {
               OR flight.to_ LIKE '%$search%' 
               OR plane.model LIKE '%$search%' 
               OR airline.airline_name LIKE '%$search%'";
+
+              
 }
+
+
+
+
+
+
 
 $result = $conn->query($sql);
 ?>

@@ -37,6 +37,10 @@ body, html {
     transition: background-color 0.3s;
 }
 
+
+
+
+
 .nav-buttons a:hover {
     background-color: #005500; /* Darker green on hover */
 }

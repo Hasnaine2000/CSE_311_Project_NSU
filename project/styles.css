@@ -5,13 +5,7 @@ body, html {
     background-color: #f4f4f4; /* Lighter background color to reduce vibrancy */
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333333; /* Darker navbar background */
-    padding: 20px 40px; /* Enlarged padding */
-}
+
 
 .logo img {
     height: 70px; /* Adjusted size for larger navbar */
@@ -22,6 +16,13 @@ body, html {
     display: flex;
     padding: 0;
     margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333; /* Darker navbar background */
+    padding: 20px 40px; /* Enlarged padding */
 }
 
 .nav-buttons li {

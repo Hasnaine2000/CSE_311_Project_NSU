@@ -36,6 +36,9 @@ if (empty($first_name) || empty($last_name) || empty($dob) || empty($phone_no)) 
     exit();
 }
 
+
+
+
 // Update the database with the new information
 $sql = "UPDATE user SET us_f_name = ?, us_m_name = ?, us_l_name = ?, DOB = ?, phone_no = ? WHERE user_id = ?";
 $stmt = $conn->prepare($sql);
@@ -43,6 +46,7 @@ $stmt->bind_param("sssssi", $first_name, $middle_name, $last_name, $dob, $phone_
 
 // Execute the update query
 if ($stmt->execute()) {
+    
     echo "Profile updated successfully!";
     // Optionally redirect to the profile page after update
     header("Location: profile.php");
@@ -50,6 +54,10 @@ if ($stmt->execute()) {
 } else {
     echo "Error updating profile: " . $stmt->error;
 }
+
+
+
+
 
 $stmt->close();
 $conn->close();

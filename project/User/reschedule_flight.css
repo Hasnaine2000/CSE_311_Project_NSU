@@ -34,10 +34,6 @@ thead {
     color: #fff;
 }
 
-thead th {
-    padding: 12px;
-    text-align: left;
-}
 
 tbody tr {
     border-bottom: 1px solid #ddd;
@@ -56,6 +52,11 @@ tbody td {
     border-radius: 5px;
     cursor: pointer;
 }
+thead th {
+    padding: 12px;
+    text-align: left;
+}
+
 
 .reschedule-btn {
     background-color: #f39c12;

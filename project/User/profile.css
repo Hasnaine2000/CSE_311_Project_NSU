@@ -10,14 +10,7 @@ body, html {
     color: #333;
 }
 
-/* Navbar Styles */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333333;
-    padding: 20px 40px;
-}
+
 
 .logo img {
     height: 70px;
@@ -42,6 +35,14 @@ body, html {
 
 .logout-btn:hover {
     background-color: #cc0000;
+}
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px 40px;
 }
 
 /* Profile Page Styles */

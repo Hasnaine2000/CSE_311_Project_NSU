@@ -27,14 +27,7 @@ body {
     height: 70px; /* Increased the logo size */
 }
 
-.container {
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+
 
 h2, h3 {
     color: #333;
@@ -47,6 +40,14 @@ ul {
 
 li {
     margin: 8px 0;
+}
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 

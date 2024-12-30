@@ -32,10 +32,6 @@ body, html {
     background-color: #ff0000;
     border-radius: 5px;
 }
-
-.logout-btn:hover {
-    background-color: #cc0000;
-}
 /* Navbar Styles */
 .navbar {
     display: flex;
@@ -44,6 +40,10 @@ body, html {
     background-color: #333333;
     padding: 20px 40px;
 }
+.logout-btn:hover {
+    background-color: #cc0000;
+}
+
 
 /* Profile Page Styles */
 .profile-container {
@@ -54,7 +54,12 @@ body, html {
     height: calc(100vh - 100px);
     background-color: rgba(244, 244, 244, 0.8);
 }
-
+/* Edit Button Container */
+.edit-button-container {
+    display: flex;
+    justify-content: flex-end; /* Align button to the right */
+    margin-top: 10px;
+}
 .profile-box {
     background-color: #ffffff;
     padding: 30px;
@@ -64,12 +69,7 @@ body, html {
     margin-bottom: 30px;
 }
 
-/* Edit Button Container */
-.edit-button-container {
-    display: flex;
-    justify-content: flex-end; /* Align button to the right */
-    margin-top: 10px;
-}
+
 
 .edit-btn {
     background-color: #2196F3;

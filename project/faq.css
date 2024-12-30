@@ -8,7 +8,9 @@ body {
     background-color: #f4f4f4;
     color: #333333;
 }
-
+.logo img {
+    height: 70px;
+}
 /* Navbar specific styling for FAQ page */
 .navbar {
     display: flex;
@@ -19,9 +21,7 @@ body {
     margin-top: 20px;
 }
 
-.logo img {
-    height: 70px;
-}
+
 
 
 

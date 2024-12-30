@@ -43,7 +43,10 @@ tbody td {
     padding: 12px;
     text-align: left;
 }
-
+thead th {
+    padding: 12px;
+    text-align: left;
+}
 /* Action button styles */
 .action-btn {
     padding: 5px 10px;
@@ -52,10 +55,7 @@ tbody td {
     border-radius: 5px;
     cursor: pointer;
 }
-thead th {
-    padding: 12px;
-    text-align: left;
-}
+
 
 
 .reschedule-btn {

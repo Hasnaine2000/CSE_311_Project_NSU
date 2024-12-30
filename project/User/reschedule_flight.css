@@ -47,6 +47,10 @@ thead th {
     padding: 12px;
     text-align: left;
 }
+.reschedule-btn {
+    background-color: #f39c12;
+    color: #fff;
+}
 /* Action button styles */
 .action-btn {
     padding: 5px 10px;
@@ -58,10 +62,7 @@ thead th {
 
 
 
-.reschedule-btn {
-    background-color: #f39c12;
-    color: #fff;
-}
+
 
 /* Hover effects for action buttons */
 .action-btn:hover {

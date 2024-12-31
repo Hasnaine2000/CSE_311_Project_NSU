@@ -45,11 +45,7 @@ body, html {
     width: 300px;
 }
 
-.login-box h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
+
 
 .input-field {
     width: 100%;
@@ -58,6 +54,11 @@ body, html {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+}
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .input-field:focus {

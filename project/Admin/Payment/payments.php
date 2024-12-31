@@ -63,10 +63,7 @@ $result = $conn->query($sql);
             border-collapse: collapse;
         }
 
-        thead {
-            background-color: #009900;
-            color: #fff;
-        }
+        
 
         thead th {
             padding: 12px;
@@ -75,6 +72,10 @@ $result = $conn->query($sql);
 
         tbody tr {
             border-bottom: 1px solid #ddd;
+        }
+        thead {
+            background-color: #009900;
+            color: #fff;
         }
 
         tbody td {

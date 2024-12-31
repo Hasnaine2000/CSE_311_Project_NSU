@@ -23,14 +23,7 @@ body, html {
     cursor: pointer;
 }
 
-/* Queries Page Styles */
-.queries-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-    background-color: rgba(244, 244, 244, 0.8);
-}
+
 
 h2 {
     margin-bottom: 20px;
@@ -41,6 +34,14 @@ h2 {
     width: 80%;
     border-collapse: collapse;
     margin-top: 20px;
+}
+/* Queries Page Styles */
+.queries-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(244, 244, 244, 0.8);
 }
 
 .queries-table th, .queries-table td {

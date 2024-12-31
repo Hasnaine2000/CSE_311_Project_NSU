@@ -18,10 +18,7 @@ body, html {
     padding: 20px 40px; /* Enlarged padding */
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
+
 
 .logo img {
     height: 70px; /* Adjust size for the logo */
@@ -35,6 +32,10 @@ body, html {
     align-items: center;
     height: 100vh;
     background-color: rgba(244, 244, 244, 0.8); /* Slight transparent background for the add-plane box */
+}
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 .add-plane-box {

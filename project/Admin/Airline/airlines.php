@@ -36,13 +36,7 @@ $result = $conn->query($sql);
             color: #fff;
         }
 
-        .search-bar {
-            margin-left: auto;
-            padding: 10px;
-            font-size: 14px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
+        
 
         .table-container {
             margin: 30px auto;
@@ -55,6 +49,13 @@ $result = $conn->query($sql);
         table {
             width: 100%;
             border-collapse: collapse;
+        }
+        .search-bar {
+            margin-left: auto;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
         }
 
         thead {

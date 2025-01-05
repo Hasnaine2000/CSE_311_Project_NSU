@@ -37,6 +37,13 @@ $result = $conn->query($sql);
             padding: 20px;
             color: #fff;
         }
+        .table-container {
+            margin: 30px auto;
+            width: 90%;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
 
         .search-bar {
             margin-left: auto;
@@ -46,13 +53,7 @@ $result = $conn->query($sql);
             border: 1px solid #ccc;
         }
 
-        .table-container {
-            margin: 30px auto;
-            width: 90%;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
+        
 
         .logo img {
             height: 50px;
@@ -77,16 +78,16 @@ $result = $conn->query($sql);
         tbody tr {
             border-bottom: 1px solid #ddd;
         }
-
+        .actions {
+            display: flex;
+            gap: 10px;
+        }
         tbody td {
             padding: 12px;
             text-align: left;
         }
 
-        .actions {
-            display: flex;
-            gap: 10px;
-        }
+       
 
         .actions button {
             padding: 5px 10px;
@@ -94,16 +95,16 @@ $result = $conn->query($sql);
             border-radius: 5px;
             cursor: pointer;
         }
-
+        .actions .delete {
+            background-color: #cc0000;
+            color: #fff;
+        }
         .actions .edit {
             background-color: #0066cc;
             color: #fff;
         }
 
-        .actions .delete {
-            background-color: #cc0000;
-            color: #fff;
-        }
+        
     </style>
 </head>
 

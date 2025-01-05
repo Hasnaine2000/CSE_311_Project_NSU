@@ -35,13 +35,14 @@ thead {
 }
 
 
-tbody tr {
-    border-bottom: 1px solid #ddd;
-}
+
 
 tbody td {
     padding: 12px;
     text-align: left;
+}
+tbody tr {
+    border-bottom: 1px solid #ddd;
 }
 thead th {
     padding: 12px;
@@ -76,6 +77,9 @@ thead th {
         margin: 20px auto;
     }
 
+    .logo img {
+        height: 50px;
+    }
     table {
         font-size: 14px;
     }
@@ -85,7 +89,5 @@ thead th {
         align-items: flex-start;
     }
 
-    .logo img {
-        height: 50px;
-    }
+    
 }

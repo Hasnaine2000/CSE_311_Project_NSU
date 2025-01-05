@@ -17,6 +17,13 @@ body, html {
     cursor: pointer;
 }
 
+
+
+/* Updated Logout Button Style */
+.logout-btn {
+    background-color: #ff0000;
+    border-radius: 5px;
+}
 .nav-links a {
     color: #fff;
     text-decoration: none;
@@ -25,12 +32,6 @@ body, html {
     padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-}
-
-/* Updated Logout Button Style */
-.logout-btn {
-    background-color: #ff0000;
-    border-radius: 5px;
 }
 /* Navbar Styles */
 .navbar {

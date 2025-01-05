@@ -60,14 +60,15 @@ body, html {
     font-size: 16px;
 }
 
+.password-container {
+    position: relative;
+}
 .input-field:focus {
     border-color: #007700;
     outline: none;
 }
 
-.password-container {
-    position: relative;
-}
+
 
 /* Styling for the show/hide password button */
 .show-password {
@@ -105,13 +106,13 @@ body, html {
     text-align: center;
     margin-top: 15px;
 }
-
+.forgot-password a:hover {
+    text-decoration: underline;
+}
 .forgot-password a {
     color: #007700;
     text-decoration: none;
     font-size: 14px;
 }
 
-.forgot-password a:hover {
-    text-decoration: underline;
-}
+

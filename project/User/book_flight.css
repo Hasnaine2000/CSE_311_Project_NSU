@@ -17,6 +17,11 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Booking Section */
+.booking-section {
+    width: 100%;
+    padding: 20px;
+}
 .logo img {
     height: 70px;
     cursor: pointer;
@@ -24,11 +29,6 @@ body, html {
 
 
 
-/* Booking Section */
-.booking-section {
-    width: 100%;
-    padding: 20px;
-}
 
 .booking-section h2 {
     color: #333;

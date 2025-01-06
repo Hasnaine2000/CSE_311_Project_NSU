@@ -52,6 +52,10 @@ thead th {
     background-color: #f39c12;
     color: #fff;
 }
+/* Hover effects for action buttons */
+.action-btn:hover {
+    opacity: 0.8;
+}
 /* Action button styles */
 .action-btn {
     padding: 5px 10px;
@@ -65,10 +69,7 @@ thead th {
 
 
 
-/* Hover effects for action buttons */
-.action-btn:hover {
-    opacity: 0.8;
-}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {

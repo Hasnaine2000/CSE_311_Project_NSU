@@ -16,9 +16,6 @@ body {
     padding: 20px 40px;
 }
 
-.logo img {
-    height: 70px;
-}
 
 /* About content container */
 .about-container {
@@ -30,6 +27,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.logo img {
+    height: 70px;
+}
 .about-container h1 {
     text-align: center;
     font-size: 28px;

@@ -45,7 +45,10 @@ body, html {
     width: 300px;
 }
 
-
+.input-field:focus {
+    border-color: #007700;
+    outline: none;
+}
 
 .input-field {
     width: 100%;
@@ -61,10 +64,7 @@ body, html {
     color: #333;
 }
 
-.input-field:focus {
-    border-color: #007700;
-    outline: none;
-}
+
 
 /* Login button */
 .login-btn {

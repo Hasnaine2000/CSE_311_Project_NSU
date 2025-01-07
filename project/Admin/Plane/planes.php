@@ -37,6 +37,14 @@ $result = $conn->query($sql);
             color: #fff;
         }
 
+      
+        .table-container {
+            margin: 30px auto;
+            width: 90%;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
         .search-bar {
             margin-left: auto;
             padding: 10px;
@@ -45,13 +53,6 @@ $result = $conn->query($sql);
             border: 1px solid #ccc;
         }
 
-        .table-container {
-            margin: 30px auto;
-            width: 90%;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
 
         .logo img {
             height: 50px;

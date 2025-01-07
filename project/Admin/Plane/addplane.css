@@ -87,13 +87,13 @@ body, html {
     text-align: center;
     margin-top: 15px;
 }
-
+.back-link a:hover {
+    text-decoration: underline;
+}
 .back-link a {
     color: #007700;
     text-decoration: none;
     font-size: 14px;
 }
 
-.back-link a:hover {
-    text-decoration: underline;
-}
+

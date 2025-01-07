@@ -38,13 +38,7 @@ body, html {
     background-color: rgba(244, 244, 244, 0.8); /* Slight transparent background for the button container */
 }
 
-.button-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
-    gap: 20px; /* Spacing between buttons */
-    width: 100%;
-    max-width: 1200px; /* Limit max width for better control */
-}
+
 
 /* Dashboard Button Styles */
 .dashboard-btn {
@@ -59,6 +53,13 @@ body, html {
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+}
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Spacing between buttons */
+    width: 100%;
+    max-width: 1200px; /* Limit max width for better control */
 }
 
 

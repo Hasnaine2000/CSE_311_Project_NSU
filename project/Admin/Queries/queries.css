@@ -30,11 +30,7 @@ h2 {
     color: #333;
 }
 
-.queries-table {
-    width: 80%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
+
 /* Queries Page Styles */
 .queries-container {
     display: flex;
@@ -49,7 +45,11 @@ h2 {
     border: 1px solid #ddd;
     text-align: left;
 }
-
+.queries-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
 .queries-table th {
     background-color: #009900;
     color: #fff;

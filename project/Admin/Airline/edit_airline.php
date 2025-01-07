@@ -73,14 +73,7 @@ $conn->close();
             font-size: 16px;
         }
 
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
+      
 
         h1 {
             text-align: center;
@@ -96,7 +89,14 @@ $conn->close();
             margin-top: 10px;
             font-weight: bold;
         }
-
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
         input[type="text"], input[type="number"] {
             padding: 10px;
             margin-top: 5px;

@@ -34,7 +34,10 @@ $conn->close();
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
         }
-
+        .logo img {
+            height: 50px;
+            cursor: pointer;
+        }
         .navbar {
             display: flex;
             justify-content: flex-start;
@@ -44,10 +47,7 @@ $conn->close();
             color: #fff;
         }
 
-        .logo img {
-            height: 50px;
-            cursor: pointer;
-        }
+        
 
         .form-container {
             width: 50%;

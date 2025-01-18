@@ -95,7 +95,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             margin-bottom: 20px;
             color: #333;
         }
-
+        .input-field:focus, select:focus {
+            border-color: #007700;
+            outline: none;
+        }
         .input-field, select {
             width: 100%;
             margin-bottom: 15px;
@@ -105,10 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             font-size: 16px;
         }
 
-        .input-field:focus, select:focus {
-            border-color: #007700;
-            outline: none;
-        }
+       
 
         /* Submit Button */
         .submit-btn {

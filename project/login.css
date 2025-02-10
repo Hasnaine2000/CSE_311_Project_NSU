@@ -44,13 +44,6 @@ body, html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
-
-.login-box h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
 .input-field {
     width: 100%;
     margin-bottom: 15px;
@@ -59,6 +52,13 @@ body, html {
     border-radius: 5px;
     font-size: 16px;
 }
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 
 .password-container {
     position: relative;
